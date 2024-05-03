@@ -106,67 +106,67 @@ class TrendyContainer extends StatelessWidget {
       padding: padding ?? const EdgeInsets.all(16.0),
       child: centerTitle
           ? Center(
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Text(
-              title,
-              style: titleTextStyle?.merge(TextStyle(
-                color: titleTextStyle?.color ?? Colors.white,
-                fontSize: 18.0,
-                fontWeight: FontWeight.bold,
-              )) ??
-                  const TextStyle(
-                    color: Colors.white,
-                    fontSize: 18.0,
-                    fontWeight: FontWeight.bold,
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    title,
+                    style: titleTextStyle?.merge(TextStyle(
+                          color: titleTextStyle?.color ?? Colors.white,
+                          fontSize: 18.0,
+                          fontWeight: FontWeight.bold,
+                        )) ??
+                        const TextStyle(
+                          color: Colors.white,
+                          fontSize: 18.0,
+                          fontWeight: FontWeight.bold,
+                        ),
                   ),
-            ),
-            if (subTitle != null && subTitle!.isNotEmpty)
-              Text(
-                subTitle!,
-                style: subtitleTextStyle?.merge(TextStyle(
-                  color: subtitleTextStyle?.color ?? Colors.white,
-                  fontSize: 14.0,
-                )) ??
-                    const TextStyle(
-                      color: Colors.white,
-                      fontSize: 14.0,
+                  if (subTitle != null && subTitle!.isNotEmpty)
+                    Text(
+                      subTitle!,
+                      style: subtitleTextStyle?.merge(TextStyle(
+                            color: subtitleTextStyle?.color ?? Colors.white,
+                            fontSize: 14.0,
+                          )) ??
+                          const TextStyle(
+                            color: Colors.white,
+                            fontSize: 14.0,
+                          ),
                     ),
+                ],
               ),
-          ],
-        ),
-      )
+            )
           : Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Text(
-            title,
-            style: titleTextStyle?.merge(TextStyle(
-              color: titleTextStyle?.color ?? Colors.white,
-              fontSize: 18.0,
-              fontWeight: FontWeight.bold,
-            )) ??
-                const TextStyle(
-                  color: Colors.white,
-                  fontSize: 18.0,
-                  fontWeight: FontWeight.bold,
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  title,
+                  style: titleTextStyle?.merge(TextStyle(
+                        color: titleTextStyle?.color ?? Colors.white,
+                        fontSize: 18.0,
+                        fontWeight: FontWeight.bold,
+                      )) ??
+                      const TextStyle(
+                        color: Colors.white,
+                        fontSize: 18.0,
+                        fontWeight: FontWeight.bold,
+                      ),
                 ),
-          ),
-          if (subTitle != null && subTitle!.isNotEmpty)
-            Text(
-              subTitle!,
-              style: subtitleTextStyle?.merge(TextStyle(
-                color: subtitleTextStyle?.color ?? Colors.white,
-                fontSize: 14.0,
-              )) ??
-                  const TextStyle(
-                    color: Colors.white,
-                    fontSize: 14.0,
+                if (subTitle != null && subTitle!.isNotEmpty)
+                  Text(
+                    subTitle!,
+                    style: subtitleTextStyle?.merge(TextStyle(
+                          color: subtitleTextStyle?.color ?? Colors.white,
+                          fontSize: 14.0,
+                        )) ??
+                        const TextStyle(
+                          color: Colors.white,
+                          fontSize: 14.0,
+                        ),
                   ),
+              ],
             ),
-        ],
-      ),
     );
   }
 }

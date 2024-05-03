@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:trendy_container/trendy_container.dart';
 
-
 void main() {
   runApp(const MyApp());
 }
@@ -36,8 +35,14 @@ class _HomePageState extends State<HomePage> {
             TrendyContainer(
               title: 'This is title',
               subTitle: 'This is subtitle',
-              titleTextStyle: TextStyle(color: Colors.white,fontWeight: FontWeight.bold,),
-              subtitleTextStyle: TextStyle(color: Colors.white,fontWeight: FontWeight.bold,),
+              titleTextStyle: TextStyle(
+                color: Colors.white,
+                fontWeight: FontWeight.bold,
+              ),
+              subtitleTextStyle: TextStyle(
+                color: Colors.white,
+                fontWeight: FontWeight.bold,
+              ),
               isRectangle: true,
               padding: EdgeInsets.all(10),
               height: 150,
@@ -46,12 +51,20 @@ class _HomePageState extends State<HomePage> {
               color1: Colors.red,
               color2: Colors.orange,
             ),
-            SizedBox(height: 50,),
+            SizedBox(
+              height: 50,
+            ),
             TrendyContainer(
               title: 'This is title',
               subTitle: 'This is subtitle',
-              titleTextStyle: TextStyle(color: Colors.white,fontWeight: FontWeight.bold,),
-              subtitleTextStyle: TextStyle(color: Colors.white,fontWeight: FontWeight.bold,),
+              titleTextStyle: TextStyle(
+                color: Colors.white,
+                fontWeight: FontWeight.bold,
+              ),
+              subtitleTextStyle: TextStyle(
+                color: Colors.white,
+                fontWeight: FontWeight.bold,
+              ),
               padding: EdgeInsets.all(10),
               height: 150,
               width: 300,
@@ -59,12 +72,20 @@ class _HomePageState extends State<HomePage> {
               color1: Colors.green,
               color2: Colors.greenAccent,
             ),
-            SizedBox(height: 50,),
+            SizedBox(
+              height: 50,
+            ),
             TrendyContainer(
               title: 'This is title',
               subTitle: 'This is subtitle',
-              titleTextStyle: TextStyle(color: Colors.white,fontWeight: FontWeight.bold,),
-              subtitleTextStyle: TextStyle(color: Colors.white,fontWeight: FontWeight.bold,),
+              titleTextStyle: TextStyle(
+                color: Colors.white,
+                fontWeight: FontWeight.bold,
+              ),
+              subtitleTextStyle: TextStyle(
+                color: Colors.white,
+                fontWeight: FontWeight.bold,
+              ),
               padding: EdgeInsets.all(10),
               height: 180,
               width: 300,
