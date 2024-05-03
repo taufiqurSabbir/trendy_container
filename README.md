@@ -142,12 +142,8 @@ class _HomePageState extends State<HomePage> {
 </tr>
 </table>
 
-## Next Goals
+### Created & Maintained By `Taufiqur Sabbir`
 
-- [] Add onTap for functions.
-  Now, you can specify the onTap and specify a function.
-
-- [x] Change font and color style for text.
-  Change color by specifying `textcolor` and `subtitlecolor` properties.
-
-- [] Add more containers to the package.
+* GitHub: [@taufiqurSabbir](https://github.com/taufiqurSabbir)
+* LinkedIn: [@Taufiqur Sabbir](https://www.linkedin.com/in/taufiqur-sabbir-b989a7213/)
+* Email: [taufiqur2511@gmail.com]
