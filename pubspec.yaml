@@ -1,6 +1,6 @@
 name: trendy_container
 description: "Use trendy container just like plug and play"
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/taufiqurSabbir/trendy_container.git
 
 environment:
